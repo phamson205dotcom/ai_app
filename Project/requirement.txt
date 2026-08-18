@@ -1,8 +1,8 @@
 os
 time
-pandas as pd
-plotly.express as px
-streamlit as st
+pandas
+plotly
+streamlit
 audio_recorder
 genai
 asyncio
