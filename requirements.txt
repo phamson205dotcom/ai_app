@@ -1,0 +1,7 @@
+streamlit
+pandas
+plotly
+audio-recorder-streamlit
+google-genai
+edge-tts
+pydub
