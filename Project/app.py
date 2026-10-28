@@ -14,8 +14,8 @@ st.set_page_config(
 
 # Khởi tạo dịch vụ thoại & Gemini AI
 voice_service = VoiceService()
-client = genai.Client()
-
+# Thay YOUR_GEMINI_API_KEY bằng API key thực tế của bạn
+client = genai.Client(api_key="AQ.Ab8RN6JwpprM83mFq51sqcs3Em43B7-LEWPio3J3TONGVtclQQ")
 # Khởi tạo lịch sử trò chuyện trong Session State
 if "messages" not in st.session_state:
     st.session_state.messages = []
