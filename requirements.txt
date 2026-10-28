@@ -5,5 +5,3 @@ audio-recorder-streamlit
 google-genai
 edge-tts
 pydub
-pyaudioop
-audioop
