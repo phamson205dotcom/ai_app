@@ -75,7 +75,7 @@ if user_prompt:
     with st.chat_message("assistant"):
         with st.spinner("AI đang suy nghĩ..."):
             response = client.models.generate_content(
-                model="gemini-2.0-flash-lite-001",
+                model="gemini-2.0-flash",
                 contents=user_prompt
             )
             ai_reply = response.text
